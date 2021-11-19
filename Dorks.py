@@ -22,7 +22,7 @@ def folder_str(a_site):
 # function will use google dorks
 def dorking(a_dork):
 
-    # Search, pause for 20 to minimize too many request errors
+    # Search, limited to 100 results to limit "too many" error
     search_results = googlesearch.search(a_dork, num_results=100)
     return search_results
 
@@ -119,8 +119,8 @@ def valid_404(dork_url):
 
 
 dork = input('Enter google search parameters: ')
-file_name = input('File name for results: ')
-site = input('Target Site: ')
+file_name = input('File name for search results: ')
+site = input('Target Web Site: ')
 
 folder_str(site)
 
