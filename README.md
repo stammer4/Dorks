@@ -7,7 +7,7 @@ This script will allow you to run your google dorks within the CLI of your machi
 -There is a way to create a search tool by using Google's API (after receving an API-Key), but it's very limited in free results. I found more success using the googlesearch module. <br> 
 -I'm planning on making a few small changes to the script in the future, I want to expand on the results displayed in the excel sheet. 
 
-# Python Module
+# Python Modules
 import googlesearch <br>
 import requests <br>
 from urllib.request import urlretrieve <br>
@@ -20,6 +20,6 @@ import xlsxwriter <br>
   To install one of the above modules if you do not have it: (example) <br>
   python3 -m pip install googlesearch-python
 
-
+# gnumeric
 <b>To read the excel file in linux, ensure gnumeric is installed. </b> <br>
 apt-get install gnumeric 
