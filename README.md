@@ -8,16 +8,16 @@ This script will allow you to run your google dorks within the CLI of your machi
 -I'm planning on making a few small changes to the script in the future, I want to expand on the results displayed in the excel sheet. 
 
 # Python Module
-import googlesearch
-import requests
-from urllib.request import urlretrieve
-from pathlib import Path
-import os
-import pandas as pd
-import xlsxwriter
+import googlesearch <br>
+import requests <br>
+from urllib.request import urlretrieve <br>
+from pathlib import Path <br>
+import os <br>
+import pandas as pd <br>
+import xlsxwriter <br>
 
 <p>
-  To install one of the above modules type: (example) <br>
+  To install one of the above modules if you do not have it: (example) <br>
   python3 -m pip install googlesearch-python
 
 
