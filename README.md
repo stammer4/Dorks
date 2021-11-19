@@ -4,7 +4,8 @@ This script will allow you to run your google dorks within the CLI of your machi
 # Notes
 -Currently limited to 100 results per search. <br>
 -The script is only looking for 200 responses from sites, so sometimes a link that displayed as red in the excel will still return a valid page. <br>
--There is a way to create a search tool by using Google's API (after receving an API-Key), but it's very limited in free results. I found more success using the googlesearch module. 
+-There is a way to create a search tool by using Google's API (after receving an API-Key), but it's very limited in free results. I found more success using the googlesearch module. <br> 
+-I'm planning on making a few small changes to the script in the future, I want to expand on the results displayed in the excel sheet. 
 
 # Python Module
 import googlesearch
